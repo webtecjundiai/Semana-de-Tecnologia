@@ -1,2 +1,2 @@
-# Semana-de-Tecnologia
+# Semana de Tecnologia
 Conteúdo da Semana de Tecnologia
