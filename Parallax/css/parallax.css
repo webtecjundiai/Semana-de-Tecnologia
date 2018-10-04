@@ -1,0 +1,35 @@
+.parallax-inicio {
+    background-image: url('../imgs/6.jpg');
+    height: 100%; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding: 160px 0;
+}
+
+.parallax-meio {
+    background-image: url('../imgs/5.jpg');
+    height: 100%; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 80px 0;
+}
+
+.parallax-fim {
+    background-image: url('../imgs/1.jpg');
+    height: 100%; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 50px 0;
+}
