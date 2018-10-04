@@ -82,3 +82,8 @@ footer img{
 section img{
     margin-top: 30px;
 }
+
+.foguete img{
+    width: 10%;
+    position: absolute;
+}
