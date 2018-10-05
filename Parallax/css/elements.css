@@ -83,7 +83,9 @@ section img{
     margin-top: 30px;
 }
 
-.foguete img{
+
+.foguete{
+    top: 30%;
     width: 10%;
     position: absolute;
 }
