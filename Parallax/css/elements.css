@@ -18,6 +18,8 @@ main{
     padding: 50px;
     display: flex;
     align-items: flex-start;
+    z-index: 2;
+    position: relative;
 }
 
 section{
@@ -27,6 +29,8 @@ section{
     color: #333;
     font-size: 1.5em;
     padding: 30px 50px 50px 50px;
+    z-index: 2;
+    position: relative;
 }
 
 footer{
@@ -85,7 +89,30 @@ section img{
 
 
 .foguete{
-    top: 30%;
+    top: 50%;
     width: 10%;
     position: absolute;
+    z-index: 3;
 }
+
+.vaca{
+    width: 10%;
+    position: absolute;
+    z-index: initial;
+    right: 2%;
+}
+.vaca2{
+    width: 10%;
+    position: absolute;
+    z-index: initial;
+    left: 2%;
+}
+
+.lua{
+    width: 15%;
+    position: absolute;
+    z-index: 3;
+    margin-top: -50px;
+    right: 0;
+}
+
