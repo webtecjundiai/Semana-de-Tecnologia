@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Efeito Parallax</title>
+</head>
+
+<body>
+    <img src="imgs/vaca.png" class="vaca2" alt="vaca" data-0="transform:translateY(-160px) rotate(0deg);" data-end="transform:translateY(2800px) rotate(720deg);">
+    <img src="imgs/vaca.png" class="vaca" alt="vaca" data-end="transform:translateY(70px) rotate(0deg);" data-0="transform:translateY(2800px) rotate(720deg);">
+    <div class="parallax-inicio" data-0="background-position-y:0px;" data-500="background-position-y:-600px;">
+        <img src="imgs/foguete.png" alt="foguete" class="foguete" data-0="transform:translateX(-120px);" data-600="transform:translateX(1000px);">
+        <h1>O Universo</h1>
+    </div>
+
+    <main>
+        <div class="left">
+            <h2>O INÍCIO</h2>
+            <p>Curiosamente, há muito que os golfinhos sabiam da iminente destruição do planeta, e faziam de tudo para
+                alertar a humanidade, porém suas tentativas de comunicação eram geralmente interpretadas como gestos
+                lúdicos com o objetivo de rebater bolas ou pedir por comida, e por isso acabaram desistindo e
+                abandonaram a Terra por seus próprios meios antes que os vogons chegassem.</p>
+
+            <p>A derradeira mensagem dos
+                golfinhos foi entendida como uma tentativa extraordinariamente sofistica de dar uma cambalhota dupla
+                para trás assobiando o hino nacional dos Estados Unidos, mas na verdade o significado da mensagem era:
+                Até mais e obrigado pelos peixes.</p>
+        </div>
+        <div class="right">
+            <img src="imgs/dontpanic.png" alt="">
+        </div>
+    </main>
+
+    <div class="parallax-meio" data-200="background-position-y:200px;" data-1800="background-position-y:-400px;">
+        <h1>Dinamite Pangaláctica</h1>
+    </div>
+
+    <section>
+        <p>O Pangaláctica Blaster (ou Dinamite Pangaláctica) é uma bebida alcoólica inventada por mim, Zaphod
+            Beeblebrox, considerada pelo Guia como a
+            "Melhor bebida na Existência”. Seus efeitos são semelhantes aos ter seus miolos esmagados por uma fatia
+            de limão colocada em volta de uma grande barra de ouro. Eai, vai encarar? Passa lá no Restaurante do Fim do
+            Universo, antes que ele também exploda, e bora tomar uma!</p>
+        <img src="imgs/dinamite.gif" alt="">
+    </section>
+    <img src="imgs/lua.png" alt="lua" class="lua" data-1300="transform:translateX(0px) rotate(0deg);" data-end="transform: translateX(-1080px) rotate(360deg);">
+    <div class="parallax-fim" data-1400="background-position-y:300px;" data-end="background-position-y:0px;">
+        <h3>"É um erro acreditar que é possível resolver qualquer problema importante usando batatas."</h3>
+    </div>
+
+    <footer>
+        <div class="social"></div>
+        <img src="imgs/webtec_logo.png" alt="Webtec Jundiaí">
+    </footer>
+
+    <script src="js/skrollr.min.js"></script>
+    <script src="js/parallax.js"></script>
+
+</body>
+
+</html>
