@@ -1,13 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-         -o-box-sizing: border-box;
-            box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
 .parallax-inicio{
     background-image: url('../imgs/8.jpg');
 
