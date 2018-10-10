@@ -5,10 +5,11 @@ const path = require('path');
 const {app, BrowserWindow, Menu, ipcMain} = electron;
 
 // SET ENV
-process.env.NODE_ENV = 'production';
+process.env.NODE_ENV = '';
 
 let mainWindow;
 let addWindow;
+let addWindow2;
 
 app.on('ready', function(){
     mainWindow = new BrowserWindow({});
@@ -55,6 +56,28 @@ ipcMain.on('item:add', function(e, item){
     // addWindow.close();
 });
 
+function createAddWindow2() {
+    addWindow2 = new BrowserWindow({
+        width: 800,
+        height: 600,
+        title: 'Janela 2'
+    });
+
+    addWindow2.loadURL(url.format({
+        pathname: path.join(__dirname, '../janela2.html'),
+        protocol: 'file:',
+        slashes: true
+    }));
+
+    addWindow2.on('close', function () {
+        addWindow2 = null;
+    });
+}
+
+
+
+
+
 // Criar menu template
 const mainMenuTemplate = [
   {
@@ -65,6 +88,13 @@ const mainMenuTemplate = [
         accelerator: process.platform == "darwin" ? "Command+N" : "Ctrl+N",
         click() {
           createAddWindow();
+        }
+      },
+      {
+        label: "Janela 2",
+        accelerator: process.platform == "darwin" ? "Command+J" : "Ctrl+J",
+        click(){
+            createAddWindow2();
         }
       },
       {

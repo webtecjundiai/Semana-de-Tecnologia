@@ -13,7 +13,7 @@
   "author": "Ronaldo Gomes",
   "license": "ISC",
   "dependencies": {
-    "electron": "^3.0.2",
-    "electron-packager": "^12.1.2"
+    "electron": "^3.0.3",
+    "electron-packager": "^12.2.0"
   }
 }

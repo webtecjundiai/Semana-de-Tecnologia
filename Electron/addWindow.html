@@ -32,7 +32,7 @@
             const item = document.querySelector('#item').value;
             ipcRenderer.send('item:add', item);
             // Para apagar após enviar o item para a lista
-            
+            document.querySelector("#item").value = '';
         }
     </script>
 </body>
