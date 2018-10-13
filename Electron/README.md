@@ -65,15 +65,16 @@ Este repositório contém arquivos do projeto da apresentação além dos arquiv
     │   └── Imagens
     │       └── // Todas as imagens utilizadas na Apresentação (PNG, GIF, JPEG, SVG)
     ├── JS
-    │   └── main.js
+    │   └── main.js // Lógica principal da aplicação, contendo as rotas e funções de execução
     ├── README.md 
-    ├── addWindow.html // Tela que adiciona itens
+    ├── addWindow.html      // Tela que adiciona itens
     ├── assets
     │   └── // Ícones das plataformas
-    ├── index.html      // Tela principal da aplicação
-    ├── janela2.html    // Tela criada durante o Hands-on
-    ├── node_modules    // Módulos do Node (esta pasta não foi enviada para o repositório, mas você deve baixar através dos passos iniciais)
+    ├── index.html          // Tela principal da aplicação
+    ├── janela2.html        // Tela criada durante o Hands-on
+    ├── node_modules        // Removida do Repositório (é baixado junto com o Electron)
+    │   └──                 // Módulos do Node
     ├── package-lock.json
-    ├── package.json // Arquivos de configuração do Electron
-    └── release-builds
+    ├── package.json        // Scripts de configuração do Electron
+    └── release-builds      // Removida do Repositório (é baixado junto com o Electron)
         └── // Arquivos gerados conforme sua plataforma (macOS, Linux, Windows) após compilar
