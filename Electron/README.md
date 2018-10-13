@@ -2,11 +2,11 @@
 
 Este repositório contém arquivos do projeto da apresentação além dos arquivos PowerPoint e PDF da Apresentação.
 
- Instalação do Node: 
+› Instalação do Node: 
 –– Site Oficial: https://nodejs.org/en/
 – Faça download do pacote referente ao seu sistema operacional no site oficial (link acima), após download concluído abra o instalador e siga as instruções de instalação.
 
- Instalação do Electron com NPM:
+› Instalação do Electron com NPM:
 
 –– Site Oficial: https://electronjs.org/
 – Comando para instalação (após ter instalado o node):
