@@ -1,12 +1,14 @@
-# Electron: Primeiros Passos no Framework para desenvolvimento de Apps Desktop Multiplataforma
+# Electron: Primeiros Passos
 
 Este repositório contém arquivos do projeto da apresentação além dos arquivos PowerPoint e PDF da Apresentação.
 
 » Para entrar em contato, acesse a página da WebTec no Facebook e nos mande uma mensagem: https://www.facebook.com/webtecjdi/
 
 › Instalação do Node: 
+
 –– Site Oficial: https://nodejs.org/en/
-– Faça download do pacote referente ao seu sistema operacional no site oficial (link acima), após download concluído abra o instalador e siga as instruções de instalação.
+
+    – Faça download do pacote referente ao seu sistema operacional no site oficial (link acima), após download concluído abra o instalador e siga as instruções de instalação.
 
 › Instalação do Electron com NPM:
 
