@@ -1,0 +1,4 @@
+# Arquivos para serem ignorados
+
+.batch
+.DS_Store
