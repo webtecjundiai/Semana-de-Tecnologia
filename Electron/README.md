@@ -8,7 +8,7 @@ Este repositório contém arquivos do projeto da apresentação além dos arquiv
 
 –– Site Oficial: https://nodejs.org/en/
 
-– Faça download do pacote referente ao seu sistema operacional no site oficial (link acima), após download concluído abra o instalador e siga as instruções de instalação.
+    – Faça download do pacote referente ao seu sistema operacional no site oficial (link acima), após download concluído abra o instalador e siga as instruções de instalação.
 
 › Instalação do Electron com NPM:
 
