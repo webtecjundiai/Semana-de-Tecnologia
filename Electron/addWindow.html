@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>+ Adicionar Novo Item</title>
+    <!-- Meta Tags - Tags de metadados -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-
+    <!-- Link Tags - Tags de Estilo -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Scripts JS - Tags de Scripts JavaScript -->
 </head>
 <body>
+    <!-- Container utilizado pelo framework Materializer (que está sendo importado via CDN na link tag do Head) -->
     <div class="container">
+        <!-- Formulário para entrada de dados contendo um rótulo (label), um campo de escrita (input type="text") e um botão para adicionar o item (button) -->
             <form action="">
                     <div>
                         <label for="">Digite o Item</label>
@@ -19,14 +23,16 @@
                 </form>
             
     </div>
-    
+    <!-- Scripts de Funcionamento do Electron -->
     <script>
+        // Variáveis
         const electron = require('electron');
         const {ipcRenderer} = electron;
 
         const form = document.querySelector('form');
         form.addEventListener('submit', submitForm);
 
+        // Função que envia as informações do formulário para a lista da index.html
         function submitForm(e){
             e.preventDefault();
             const item = document.querySelector('#item').value;

@@ -1,5 +1,6 @@
 # Arquivos a serem ignorados pelo git
 
 node_modules/
+release-builds/
 .DS_Store
 .batch

@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Electron</title>
+    <!-- Meta Tags - Tags de metadados -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Electron</title>
+    <!-- Link Tags - Tags de Estilo -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Scripts JS - Tags de Scripts JavaScript -->
 </head>
 <body>
     <nav>
         <div class="nav-wrapper">
+            <!-- Titulo que aparece no topo da janela com fundo rosado (não é o titulo da barra da janela) -->
             <a class="brand-logo center">Lista de Compras</a>
         </div>
     </nav>
     <ul></ul>
 
+    <!-- Scripts de Funcionamento do Electron -->
     <script>
+        // Variáveis
         const electron = require('electron');
         const {ipcRenderer} = electron;
         const ul = document.querySelector('ul');
         
-        // adicionar item
+        // Função para adicionar item
         ipcRenderer.on('item:add', function(e, item){
             ul.className = 'collection';
             const li = document.createElement('li');
@@ -30,13 +36,13 @@
             ul.appendChild(li);
         });
 
-        // limpar item
+        // Função para limpar item
         ipcRenderer.on('item:clear', function(){
             ul.innerHTML = '';
             ul.className = '';
         });
 
-        // Remover Item
+        // Função para remover Item
         ul.addEventListener('dblclick', removeItem);
 
         function removeItem(e){
