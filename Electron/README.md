@@ -75,7 +75,7 @@ Este repositório contém arquivos do projeto da apresentação além dos arquiv
     ├── index.html          // Tela principal da aplicação
     ├── janela2.html        // Tela criada durante o Hands-on
     ├── node_modules        // Removida do Repositório (é baixado junto com o Electron)
-    │   └──                 // Módulos do Node
+    │   └── // Módulos do Node
     ├── package-lock.json
     ├── package.json        // Scripts de configuração do Electron
     └── release-builds      // Removida do Repositório (é baixado junto com o Electron)
