@@ -1,4 +1,4 @@
-# Electron: Primeiros Passos no Framework para desenvolvimento de Apps Desktop Multiplataforma
+# Electron: Primeiros Passos
 
 Este repositório contém arquivos do projeto da apresentação além dos arquivos PowerPoint e PDF da Apresentação.
 
