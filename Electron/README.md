@@ -2,6 +2,8 @@
 
 Este repositório contém arquivos do projeto da apresentação além dos arquivos PowerPoint e PDF da Apresentação.
 
+» Para entrar em contato, acesse a página da WebTec no Facebook e nos mande uma mensagem: https://www.facebook.com/webtecjdi/
+
 › Instalação do Node: 
 –– Site Oficial: https://nodejs.org/en/
 – Faça download do pacote referente ao seu sistema operacional no site oficial (link acima), após download concluído abra o instalador e siga as instruções de instalação.
@@ -9,9 +11,10 @@ Este repositório contém arquivos do projeto da apresentação além dos arquiv
 › Instalação do Electron com NPM:
 
 –– Site Oficial: https://electronjs.org/
-– Comando para instalação (após ter instalado o node):
 
-$ npm i -D electron@latest
+    – Comando para instalação (após ter instalado o node):
+
+        $ npm i -D electron@latest
 
 * O comando acima se encontra na página inicial do site oficial do electron, tem três comandos na página principal e um deles é este para o último release oficial, os outros são para versões beta e nightly.
 
